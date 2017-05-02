@@ -1,0 +1,14 @@
+1. Home Page 94%
+2. Buttons 97%
+3. Forms 97%
+4. Grid 97%
+5. Progress Bars 97%
+6. Tables 97%
+7. Tabs & Accordions 97%
+8. Typography 97%
+9. Make an appointment 97%
+10. Timetable 97%
+
+Total percentage: 
+94 + 97 x 9 = 967 
+967 / 100 = 96,7%

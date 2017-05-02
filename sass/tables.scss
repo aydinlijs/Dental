@@ -1,0 +1,77 @@
+$main_color: #18AFD3;
+$orange_: #F57E57;
+$p-color: #868686; 
+.heading { 
+              h2 {
+             text-transform: uppercase;
+             font-family: 'Oswald',sans-serif;
+             font-size: 18px;
+             margin: 20px 0px 30px 0px;
+             color: rgb(67,68,69);
+             border-bottom: 2px solid #E5E5E5;
+             padding: 10px 0px;
+             letter-spacing: 1.1px;
+             &:after {
+             position: absolute;
+             left: -0.1%;
+             top:56.4px;
+             content: '';
+             height: 4px;
+             width: 70px;
+             border-bottom: 2px solid $orange_;
+             }
+          }
+ }
+ @media screen and (max-width: 768px){
+     .heading {
+         h2:after {
+             top: 36.4px;
+         }
+     }
+ }
+ .table {
+     font-size: 14px;
+     font-family: 'Lato',sans-serif;
+     color: #868686;
+     letter-spacing: 0.5px;
+     th {
+         color: rgb(67,68,69);
+     }
+ }
+.firsttable, .secondtable, .thirdtable {
+    thead {
+        th {
+        border-bottom: 1px solid black !important;
+        }
+    }
+}
+.secondtable, .fourthtable {
+    tbody {
+    tr:nth-child(2n+1){
+        background:#FAFAFA;
+    }
+    }
+}
+.fourthtable {
+    thead {
+        background: $main_color !important;
+    }
+}
+.firsttable {
+    tr:hover {
+        background: #FAFAFA;
+    }
+}
+
+.content {
+    padding: 80px 0px;
+}
+.table1 {
+    margin: 20px 0px;
+
+}
+@media screen and (max-width: 768px){
+    .table1 {
+        margin: 0px 10%;
+    }
+}

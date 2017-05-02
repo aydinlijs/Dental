@@ -1,0 +1,112 @@
+body {
+  font-family: 'Lato',sans-serif;
+}
+#timetable ul {
+  border-bottom: 1px solid gray; }
+  #timetable ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Oswald',sans-serif;
+    padding: 20px;
+    cursor: pointer;
+    color: #868686;
+    letter-spacing: 0.06em; }
+  #timetable ul .active {
+    border-bottom: 1px solid red;
+    color: #434445; }
+#timetable #tableScroll {
+  overflow-x: auto;
+  margin-bottom: 40px; }
+  #timetable #tableScroll table {
+    min-width: 700px; }
+    #timetable #tableScroll table tbody tr td {
+      border: none;
+      position: relative;
+      padding: 40px 0;
+      border-bottom: 1px solid lightgray;
+      border-top: 1px solid black;
+      font-size: 1.2em; }
+      #timetable #tableScroll table tbody tr td .doctor {
+        position: absolute;
+        top: 0;
+        width: 96%;
+        text-align: center;
+        margin-right: 4%;
+        color: white; }
+        .doctor img {
+          border-radius: 100%;
+          width: 60px;
+          height: 60px;
+          margin: 8px 0px 0px 8px;
+          float: left;
+        }
+        #timetable ul li i {
+          float: right;
+          display: none;
+        }
+        .doctor h5 {
+          width: 100%;
+          clear: both;
+          padding-top: 10px;
+          padding-left:8px;
+          text-align: left;
+        }
+        .doctor h6 {
+          font-size: 13px;
+          opacity: 0.7;
+          padding-left:8px;          
+          text-align: left;
+          font-style: italic;
+        }
+        thead th {
+          font-weight: 400;
+          font-size: 15px;
+          border-bottom: 1px solid #868686;
+          padding-bottom: 5px;          
+        }
+        #timetable, #tableScroll {
+          transition: all 3s ease;
+        }
+        thead tr th {
+          width: 100px;
+        }
+        thead tr th:first-child  {
+          width: 150px;
+        }
+        #timetable table tbody tr td:first-child {
+          width: 200px;
+        }
+        td {
+          position: relative;
+          height: 100px;
+        }
+        .doctor {
+          position: absolute;
+          width: 95%;
+          padding-right: 5%;
+          color: white;
+        }
+        .row {
+          margin: 0px;
+        }
+        .accordion, .tab {
+           padding: 50px 0px 0px 0px;
+        }
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 0px;
+  line-height: 3;  
+}        
+
+@media screen and (max-width: 994px){
+        #timetable ul li i {
+          display: block;
+        }
+#timetable ul .active {
+    border-bottom: none;
+      color:#0788A7;
+}
+#timetable ul li {
+      color: #0788A7; }
+}
+/*# sourceMappingURL=style.css.map */

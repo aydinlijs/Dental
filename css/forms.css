@@ -1,0 +1,115 @@
+.myButton {
+  height: 52px;
+  line-height: 25px;
+  outline: none;
+  font-family: 'Oswald',sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #F57E57;
+  transition: all 0.6s ease;
+  border-radius: 23px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 13px;
+  font-weight: 500; }
+  .myButton a {
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px; }
+  .myButton:hover {
+    background: #18AFD3; }
+
+@media screen and (max-width: 768px) {
+  .firstform .heading h2:after {
+    top: 36.4px; } }
+.content {
+  padding: 50px 0px 100px 0px; }
+
+.heading h2 {
+  font-family: 'Oswald',sans-serif;
+  font-size: 18px;
+  margin: 20px 0px 30px 0px;
+  color: #434445;
+  border-bottom: 2px solid #E5E5E5;
+  padding: 10px 0px;
+  letter-spacing: 1.1px; }
+  .heading h2:after {
+    position: absolute;
+    left: -0.1%;
+    top: 56.4px;
+    content: '';
+    height: 4px;
+    width: 70px;
+    border-bottom: 2px solid #F57E57; }
+
+.firstform input {
+  height: 47px; }
+.firstform label {
+  color: #868686;
+  font-family: 'Lato',sans-serif;
+  font-weight: 100;
+  padding: 4px 0px; }
+.firstform button {
+  font-size: 15px; }
+.firstform .text {
+  margin-left: 50px;
+  padding: 20px 0px 0px 0px; }
+.firstform .icons {
+  margin-top: 5px; }
+  .firstform .icons i {
+    margin: 0px 3px;
+    width: 45px;
+    font-size: 19px;
+    padding: 15px 0px 0px 15px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 100%;
+    background: #E5E5E5; }
+    .firstform .icons i:hover {
+      background: #F57E57;
+      color: white; }
+
+.secondform {
+  padding-top: 20px; }
+  .secondform .smalls input {
+    width: 370px;
+    height: 44px; }
+  .secondform label {
+    color: #868686;
+    font-family: 'Lato',sans-serif;
+    font-weight: 100;
+    padding: 4px 0px; }
+  .secondform button {
+    font-weight: 900;
+    font-size: 15px; }
+  .secondform #exampleTextarea {
+    height: 149px; }
+  .secondform input {
+    outline: none; }
+
+.thirdform {
+  padding-top: 20px; }
+  .thirdform input {
+    height: 52px;
+    width: 100%;
+    outline: none;
+    border-radius: 23px; }
+  .thirdform .subscribe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative; }
+  .thirdform button {
+    position: absolute;
+    color: white;
+    top: 0px;
+    right: 0px; }
+  .thirdform p {
+    font-size: 15px;
+    color: #868686; }
+
+.form {
+  margin: 40px 0px; }
+
+/*# sourceMappingURL=forms.css.map */
